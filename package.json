@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.15.0",
+    "@openrouter/sdk": "^1.3.11",
     "dotenv": "^18.0.1",
     "express": "^4.18.2",
     "helmet": "^8.1.0",
