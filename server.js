@@ -4,6 +4,7 @@ import helmet from 'helmet';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import { initDatabase } from './config/database-init.js';
+import pool from './config/database.js';
 import dreamsRouter from './routes/dreams.js';
 
 const __filename = fileURLToPath(import.meta.url);
